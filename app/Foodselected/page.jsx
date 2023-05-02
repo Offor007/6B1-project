@@ -17,7 +17,7 @@ const Foodselected = () => {
         {/* ICONS */}
 
         <div className="pt-12 pb-11 pl-6 flex flex-row space-x-4 font-bold">
-        <TfiAngleLeft className='pt-1'/>
+        <TfiAngleLeft className='pt-1 text-2xl'/>
         <h3>Chicken Biryani</h3>
         </div>
 

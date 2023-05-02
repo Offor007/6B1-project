@@ -56,7 +56,7 @@ const productDetail = () => {
       <div className="ml-4 mt-5 w-72 bg-[#FFC83A] text-[#000] 
     rounded-full hover:border border-x-4 border-[#FFF] hover:bg-[#FFF]
       hover:text-[#000]">
-        <Button buttonText={'Get started'} buttonLink={'/Login'}/>
+        <Button buttonText={'Add to cart'} buttonLink={'/Login'}/>
       </div>
       </div>
         
