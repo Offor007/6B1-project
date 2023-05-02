@@ -36,13 +36,14 @@ const Onboarding = () => {
           alt="boy" 
           width={200}
           height={2}
-          className='-z-50'
+          className=''
           />
-          <div className=' bg-[#f1ca65] h-[5vh] w-52 -mt-8 '></div>
+         
         </aside>
+        <div className=' bg-[#f1ca65] h-[5vh] ml-5 w-72 mt-64 blur-md absolute'></div>
       </div>
       <div className="ml-4 mt-2.5 w-72 bg-[#FFFF] text-[#FFC83A] 
-    rounded-full hover:border border-x-4 border-[#FFF] hover:bg-[#FFC83A]
+    rounded-full hover:bg-[#FFC83A]
       hover:text-[#FFFF]">
         <Button buttonText={'Get started'} buttonLink={'/Login'}/>
       </div>
