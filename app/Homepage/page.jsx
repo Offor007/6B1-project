@@ -4,6 +4,11 @@ import { CiMenuFries } from 'react-icons/ci'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
 import { BiSearch } from 'react-icons/bi'
 import NavBar from '../NavBar'
+import Search from './components/search'
+import ToupOption from './components/ToupOption'
+import Food from './Food'
+import Link from 'next/link'
+import Profilepage from '../Profilepage/page'
 
 
 const inter = Inter({ subsets: ['cyrillic'] })
@@ -20,8 +25,8 @@ const Homepage = () => {
         {/* ICONS */}
 
         <div className="pt-12 pl-6 flex flex-row space-x-56 text-2xl">
-        <CiMenuFries
-        className='rotate-180'/>
+        <Link href={'/Profilepage'}> <CiMenuFries
+        className='rotate-180'/></Link>
         <AiOutlineShoppingCart/>
         </div>
 
@@ -29,62 +34,13 @@ const Homepage = () => {
 
       <h1 className=" pt-12 pl-6 text-2xl font-extrabold">Food for <br /> Everyone</h1>
 
-      {/* SEARCH */}
+      <Search/>
 
-      <div className='flex flex-row relative bg-[#EFEEEE] rounded-full mx-8 my-6'><BiSearch
-      className='pt-3 pb-3 text-5xl'/>
-      <input type="search" name="Search" id="search" placeholder='Search' className=' w-52 rounded-full bg-transparent ' /></div>
+      <ToupOption/>
 
-      {/* TOPUP OPTIONS */}
+      <div className='mr-8 pt-4 text-right '><Link href={'/Foodselected'}><h5>see more</h5></Link></div>
 
-            <div className='flex flex-row relative space-x-9 ml-8 overflow-x-auto'>
-            <div className=' flex  border-b-2 border-[#FFC83A] text-[#FFC83A] w-18 '>
-              <h3 className='w-12 pb-2 ml-4'>Food</h3></div>
-            <div className='text-[#9A9A9D]'><h3>Drinks</h3></div>
-            <div className='text-[#9A9A9D]'><h3>Snacks</h3></div>
-            <div className='text-[#9A9A9D]'><h3>Sauce</h3></div>
-            </div>
-
-      {/* SEE MORE */}
-
-      <div className='mr-3 pt-4 text-right '><h5>see more</h5></div>
-
-      {/* FOOD SECTION */}
-
-      <section className='flex flex-row overflow-x-auto'>
-      <div className="flex flex-col pt-12 pl-6">
-        <aside className='h-20 w-40 bg-[#FFFF] rounded-t-3xl'>
-        <Image src="/Mask Group.png" 
-          alt="pizza" 
-          width={200}
-          height={0}
-          className='relative py-0.5 -top-8'
-          />
- 
-        </aside>
-        <aside className='bg-[#FFFF] font-semibold pl-12 pt-4 pb-7 text-xl w-40 rounded-b-3xl'>
-        <h3>Chicken <br/> Briyani</h3>
-        <h4 className='text-[#FFC83A] text-base pt-2'>Rs 800</h4>
-        </aside>
-      </div>
-      <div className="flex flex-col pt-12 pl-6">
-        <aside className='h-20 w-40 bg-[#FFFF] rounded-t-3xl'>
-        <Image src="/fish sauce.png" 
-          alt="Fish" 
-          width={290}
-          height={0}
-          className='relative py-0.5 -top-8'
-          />
- 
-        </aside>
-        <aside className='bg-[#FFFF] font-semibold pl-12 pt-4 pb-7 text-xl w-40 rounded-b-3xl'>
-        <h3>Spicy fish <br/> sauce</h3>
-        <h4 className='text-[#FFC83A] text-base pt-2'>Rs 800</h4>
-        </aside>
-      </div>
-      </section>
-
-      {/* NAV-BAR */}
+      <Food/>
 
       <NavBar/>
       </div>

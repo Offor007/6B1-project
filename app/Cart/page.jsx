@@ -6,6 +6,7 @@ import { AiOutlineHeart } from 'react-icons/ai'
 import { RiDeleteBinLine } from 'react-icons/ri'
 import Button from '../Button'
 import Hoodswork from '../Hoodswork/page'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['cyrillic'] })
 
@@ -18,7 +19,7 @@ const Cartpage = () => {
         {/* ICONS */}
 
         <div className="pt-12 space-x-28 pb-11 pl-6 flex flex-row  font-bold">
-        <TfiAngleLeft className='pt-1 text-2xl'/> <p>Cart</p>
+        <Link href={'/Productdetails'}><TfiAngleLeft className='pt-1 text-2xl'/></Link> <p>Cart</p>
         </div>
         <div className='flex flex-row items-center ml-16'>
           <MdOutlineSwipe className='text-xl'/><p className='font-semibold text-xs'>swipe on an item to delete</p>
@@ -93,7 +94,7 @@ const Cartpage = () => {
       <div className="ml-4 mt-96 pt w-72 bg-[#FFC83A] text-[#000] 
     rounded-full hover:border hover:bg-[#FFF]
       hover:text-[#000]">
-        <Button buttonText={'Order now'} buttonLink={'/Login'}/>
+        <Button buttonText={'Order now'} buttonLink={'/Address'}/>
       </div>
       </div>
         

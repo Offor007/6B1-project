@@ -4,6 +4,7 @@ import { BsFillCreditCard2FrontFill } from 'react-icons/bs'
 import { RiBankFill } from 'react-icons/ri'
 import { BsCashCoin } from 'react-icons/bs'
 import Button from '../Button'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['cyrillic'] })
 
@@ -16,7 +17,7 @@ const Checkout = () => {
         {/* ICONS */}
 
         <div className="pt-12 space-x-24 pb-11 pl-6 flex flex-row  font-bold">
-        <TfiAngleLeft className='pt-1 text-2xl'/> <p>Checkout</p>
+        <Link href={'/Address'}><TfiAngleLeft className='pt-1 text-2xl'/></Link><p>Checkout</p>
       </div>
       <h2 className='ml-8 text-2xl font-semibold'>Payment</h2>
 
@@ -100,7 +101,7 @@ const Checkout = () => {
       <div className="ml-4 mt-10 pt w-72 bg-[#FFC83A] text-[#000] 
     rounded-full hover:border hover:bg-[#FFF]
       hover:text-[#000]">
-        <Button buttonText={'Proceed to payment'} buttonLink={'/Login'}/>
+        <Button buttonText={'Proceed to payment'} buttonLink={'/Completed'}/>
       </div>
       </div>
         

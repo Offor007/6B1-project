@@ -5,6 +5,7 @@ import { RiBankFill } from 'react-icons/ri'
 import { BsCashCoin } from 'react-icons/bs'
 import Button from '../Button'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['cyrillic'] })
 
@@ -17,7 +18,7 @@ const Completed = () => {
         {/* ICONS */}
 
         <div className="pt-12 space-x-24 pb-11 pl-6 flex flex-row  font-bold">
-        <TfiAngleLeft className='pt-1 text-2xl'/>
+        <Link href={'/Checkout'}><TfiAngleLeft className='pt-1 text-2xl'/></Link>
       </div>
       
       <h2 className='ml-8 text-2xl font-bold'>COMPLETED ORDER</h2>

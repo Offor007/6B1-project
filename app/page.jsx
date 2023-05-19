@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Button from './Button'
+import Hoodswork from './Hoodswork/page'
 
 const inter = Inter({ subsets: ['cyrillic'] })
 

@@ -4,6 +4,9 @@ import Button from '../Button'
 import { TfiAngleLeft } from 'react-icons/tfi'
 import { AiOutlineHeart } from 'react-icons/ai'
 import { AiFillStar } from 'react-icons/ai'
+import PlateFood from './components/PlateFood'
+import Hoodswork from '../Hoodswork/page'
+import Link from 'next/link'
 
 
 const inter = Inter({ subsets: ['cyrillic'] })
@@ -17,26 +20,13 @@ const productDetail = () => {
         {/* ICONS */}
 
         <div className="pt-12 space-x-56 pb-11 pl-6 flex flex-row font-bold">
-        <TfiAngleLeft className='pt-1'/><AiOutlineHeart/>
+        <Link href={'/Foodselected'}><TfiAngleLeft className='pt-1'/></Link>
+        <AiOutlineHeart/>
       
         </div>
-
-        <section className='flex flex-row'>
-
-        <div className='h-[35vh] text-center'>
-        <Image src="/Mask Group.png" 
-          alt="pizza" 
-          width={300}
-          height={0}
-          className='absolute'
-          />
-          <h2 className='mt-56 ml-20 text-lg font-semibold'>Chicken Biryani</h2>
-          <h4 className='text-[#FFC83A] ml-24'>Rs 800</h4>
-         </div>
-        
-
-      </section>
-      <div className='flex flex-row pt-6 ml-11 mr-11 border-b-2 border-b-black'>
+      <PlateFood/>
+      
+      <div className='flex flex-row pt-6 ml-11 mr-11 mt-8 border-b-2 border-b-black'>
         <p className='font-semibold'>Rating <span>5.0</span></p> <span className='pt-1 pl-3 flex flex-row 
         text-[#FFC83A]'><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/></span>
       </div>
@@ -56,7 +46,7 @@ const productDetail = () => {
       <div className="ml-4 mt-5 w-72 bg-[#FFC83A] text-[#000] 
     rounded-full hover:border border-x-4 border-[#FFF] hover:bg-[#FFF]
       hover:text-[#000]">
-        <Button buttonText={'Add to cart'} buttonLink={'/Login'}/>
+        <Button buttonText={'Add to cart'} buttonLink={'/Cart'}/>
       </div>
       </div>
         

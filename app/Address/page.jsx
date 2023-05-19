@@ -5,6 +5,7 @@ import { MdOutlineSwipe } from 'react-icons/md'
 import { AiOutlineHeart } from 'react-icons/ai'
 import { RiDeleteBinLine } from 'react-icons/ri'
 import Button from '../Button'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['cyrillic'] })
 
@@ -17,7 +18,7 @@ const Address = () => {
         {/* ICONS */}
 
         <div className="pt-12 space-x-24 pb-11 pl-6 flex flex-row  font-bold">
-        <TfiAngleLeft className='pt-1 text-2xl'/> <p>Address</p>
+        <Link href={'/Cart'}><TfiAngleLeft className='pt-1 text-2xl'/></Link> <p>Address</p>
       </div>
       <h2 className='ml-8 text-2xl font-semibold'>Delivery</h2>
 
@@ -42,7 +43,7 @@ const Address = () => {
       <div className="ml-4 mt-96 pt w-72 bg-[#FFC83A] text-[#000] 
     rounded-full hover:border hover:bg-[#FFF]
       hover:text-[#000]">
-        <Button buttonText={'Confirm address'} buttonLink={'/Login'}/>
+        <Button buttonText={'Confirm address'} buttonLink={'/Checkout'}/>
       </div>
       </div>
         

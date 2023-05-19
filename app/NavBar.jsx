@@ -10,7 +10,7 @@ export default function NavBar() {
     <div className='flex flex-row w-80 text-2xl pl-7 mt-14 space-x-12'>
       <div className='text-[#FFC83A]'><Link href={'/Homepage'}><AiFillHome/></Link></div>
       <div className='text-[#9A9A9D]'><Link href={'/'}><AiOutlineHeart/></Link></div>
-      <div className='text-[#9A9A9D]'><Link href={'/'}><BsPerson/></Link></div>
+      <div className='text-[#9A9A9D]'><Link href={'/Profilepage'}><BsPerson/></Link></div>
       <div className='text-[#9A9A9D]'><Link href={'/'}><RxCountdownTimer/></Link></div>
       
     </div>
