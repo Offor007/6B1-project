@@ -1,4 +1,4 @@
-"use client";
+/* "use client";
 import React, { useState } from 'next'
 
 const Hoodswork = () => {
@@ -16,4 +16,4 @@ const Hoodswork = () => {
   )
 }
 
-export default Hoodswork
+export default Hoodswork */

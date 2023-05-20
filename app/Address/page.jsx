@@ -1,9 +1,5 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { TfiAngleLeft } from 'react-icons/tfi'
-import { MdOutlineSwipe } from 'react-icons/md'
-import { AiOutlineHeart } from 'react-icons/ai'
-import { RiDeleteBinLine } from 'react-icons/ri'
 import Button from '../Button'
 import Link from 'next/link'
 

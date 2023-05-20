@@ -19,7 +19,7 @@ const Checkout = () => {
         <div className="pt-12 space-x-24 pb-11 pl-6 flex flex-row  font-bold">
         <Link href={'/Address'}><TfiAngleLeft className='pt-1 text-2xl'/></Link><p>Checkout</p>
       </div>
-      <h2 className='ml-8 text-2xl font-semibold'>Payment</h2>
+      <h2 className='ml-8 text-2xl font-semibold'>Payment</h2>3
 
       <div className='flex flex-row  ml-8 mt-6'>
                         <h3>Payment method</h3>

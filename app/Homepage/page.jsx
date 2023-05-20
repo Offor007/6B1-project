@@ -1,14 +1,11 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { CiMenuFries } from 'react-icons/ci'
 import { AiOutlineShoppingCart } from 'react-icons/ai'
-import { BiSearch } from 'react-icons/bi'
 import NavBar from '../NavBar'
 import Search from './components/search'
 import ToupOption from './components/ToupOption'
 import Food from './Food'
 import Link from 'next/link'
-import Profilepage from '../Profilepage/page'
 
 
 const inter = Inter({ subsets: ['cyrillic'] })

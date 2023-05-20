@@ -1,11 +1,9 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Button from '../Button'
 import { TfiAngleLeft } from 'react-icons/tfi'
 import { AiOutlineHeart } from 'react-icons/ai'
 import { AiFillStar } from 'react-icons/ai'
 import PlateFood from './components/PlateFood'
-import Hoodswork from '../Hoodswork/page'
 import Link from 'next/link'
 
 

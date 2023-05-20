@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { TfiAngleLeft } from 'react-icons/tfi'
 import Foodresult from './components/Foodresult'

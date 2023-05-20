@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import plate_moi from '/public/Moi moi.png'
 import plate_eggs from '/public/eggs and cucumba.png'
-import Link from 'next/link'
 
 const FoodresultR = () => {
   const foodData=[

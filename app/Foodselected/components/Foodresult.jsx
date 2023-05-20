@@ -3,7 +3,6 @@ import Image from 'next/image'
 import plate_rice from '/public/Mask Group.png'
 import plate_chicken from '/public/fried chicken.png'
 import veggies from '/public/veggie tomato.png'
-import Link from 'next/link'
 
 const Foodresult=() => {
   const foodData = [

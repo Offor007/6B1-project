@@ -5,7 +5,6 @@ import { MdOutlineSwipe } from 'react-icons/md'
 import { AiOutlineHeart } from 'react-icons/ai'
 import { RiDeleteBinLine } from 'react-icons/ri'
 import Button from '../Button'
-import Hoodswork from '../Hoodswork/page'
 import Link from 'next/link'
 
 const inter = Inter({ subsets: ['cyrillic'] })

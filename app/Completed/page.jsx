@@ -1,8 +1,6 @@
 import { Inter } from 'next/font/google'
 import { TfiAngleLeft } from 'react-icons/tfi'
 import { AiFillStar } from 'react-icons/ai'
-import { RiBankFill } from 'react-icons/ri'
-import { BsCashCoin } from 'react-icons/bs'
 import Button from '../Button'
 import Image from 'next/image'
 import Link from 'next/link'

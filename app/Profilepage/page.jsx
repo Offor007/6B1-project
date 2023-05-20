@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { TfiAngleLeft } from 'react-icons/tfi'
 import { CgProfile } from 'react-icons/cg'
@@ -7,7 +6,6 @@ import { BsArrowRight } from 'react-icons/bs'
 import { HiOutlineTag } from 'react-icons/hi'
 import { MdOutlineStickyNote2 } from 'react-icons/md'
 import { MdSecurity } from 'react-icons/md'
-import Profile from './profile'
 import Link from 'next/link'
 
 const inter = Inter({ subsets: ['cyrillic'] })
