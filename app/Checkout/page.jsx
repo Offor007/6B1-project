@@ -19,7 +19,7 @@ const Checkout = () => {
         <div className="pt-12 space-x-24 pb-11 pl-6 flex flex-row  font-bold">
         <Link href={'/Address'}><TfiAngleLeft className='pt-1 text-2xl'/></Link><p>Checkout</p>
       </div>
-      <h2 className='ml-8 text-2xl font-semibold'>Payment</h2>3
+      <h2 className='ml-8 text-2xl font-semibold'>Payment</h2>
 
       <div className='flex flex-row  ml-8 mt-6'>
                         <h3>Payment method</h3>
@@ -101,7 +101,7 @@ const Checkout = () => {
       <div className="ml-4 mt-10 pt w-72 bg-[#FFC83A] text-[#000] 
     rounded-full hover:border hover:bg-[#FFF]
       hover:text-[#000]">
-        <Button buttonText={'Proceed to payment'} buttonLink={'/Completed'}/>
+        <Button buttonText={'Proceed to payment'} buttonLink={'/Map'}/>
       </div>
       </div>
         
